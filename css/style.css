@@ -205,7 +205,6 @@ footer>ul>li>a{
  @media only screen and (max-width: 834px){
     .container{
         max-width: 834px;
-        min-width: 375px;
     }
     .banner{
         width: 80%;
