@@ -65,9 +65,10 @@ body{
 .banner-img{
     width: 45%;
 }
-.banner-img>img{
+.banner-img>img {
     width: 100%;
-    margin-top: 21px;
+    position: relative;
+    top: 6px;
 }
 
 /* ==================BLOG & NAVIGATION SECTION=================== */
