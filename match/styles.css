@@ -14,6 +14,8 @@ body{
     width: 100%;
     min-width: 375px;
 }
+
+/* =================BANNER SECTION=============== */
 .banner{
     width: 80%;
     height: 49%;
@@ -46,7 +48,12 @@ body{
     color: #FFFFFF;
     padding: 10px 25px;
     border-radius: 5px;
+    border: 1px solid #B9B9B9;
+}
+#watch-live-btn:hover{
+    border: none;
     background-color: #DD0000;
+    transition: ease-out 0.4s;
 }
 .fa-angle-right{
     font-size: 1.2rem;
@@ -158,7 +165,10 @@ body{
 .match-detaile>p{
     color: #4D4D4D;
     padding-top: 20px;
-}
+} 
+.view-all-btn>button{
+        opacity: 0;
+    }
 /* =====================FOOTER AREA START===================== */
 footer{
     width: 100%;
@@ -275,6 +285,21 @@ footer>ul>li>a{
         margin-top: 100px;
         margin-left: 140px;
     }
+    .view-all-btn>button{
+        opacity: 1;
+        text-decoration: none;
+        font-size: 1rem;
+        color: #FFFFFF;
+        outline: none;
+        border: none;
+        padding: 5px 20px;
+        background-color: #DD0000;
+        border-radius: 5px;
+        margin-left: 45%;
+        margin-top: 30px;
+    }
+
+    /* ===============FOOTER SECTION=============== */
     footer>h1{
         font-size: 2rem;
         font-weight: 600;

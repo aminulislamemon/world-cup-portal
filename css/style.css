@@ -14,6 +14,8 @@ body{
     width: 100%;
     min-width: 375px;
 }
+
+/* ===================BANNER AREA ============== */
 .banner{
     width: 80%;
     height: 49%;
@@ -46,7 +48,12 @@ body{
     color: #FFFFFF;
     padding: 10px 25px;
     border-radius: 5px;
+    border: 1px solid #B9B9B9;
+}
+#watch-live-btn:hover{
+    border: none;
     background-color: #DD0000;
+    transition: ease-out 0.4s;
 }
 .fa-angle-right{
     font-size: 1.2rem;
