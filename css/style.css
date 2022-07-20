@@ -239,8 +239,10 @@ footer>ul>li>a{
         font-size: 0.9rem;
         padding: 10px 15px;
     }
-    .banner-img>img{
-        margin-top: 34px;
+    .banner-img>img {
+        width: 100%;
+        position: relative;
+        top: 6px;
     }
 
     .blogs-nav{
